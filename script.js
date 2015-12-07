@@ -4,7 +4,6 @@ console.log("Hello, is this thing on.");
   $(document).ready(function(){
     $( ".pew" ).on('click',function() {
     $( 'body' ).removeClass( "close" );
-    $(".container").removeClass("byebye");
     $(this).closest('.pew').hide();
 });
    
