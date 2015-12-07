@@ -1,0 +1,151 @@
+.open{
+	background: url("https://36.media.tumblr.com/d2662dd2f4b6379e9d2871bcd39f4bb5/tumblr_nx03vrQxM21ukuh1zo1_540.jpg") top left repeat-y,
+	url("https://36.media.tumblr.com/d2662dd2f4b6379e9d2871bcd39f4bb5/tumblr_nx03vrQxM21ukuh1zo1_540.jpg") top right repeat-y,
+	url("https://40.media.tumblr.com/a36340b89b8857d8fb59eb802cc09853/tumblr_nx03vrQxM21ukuh1zo2_400.jpg") center repeat;
+	background-color:#E1B335;
+	background-size:12% 100%,12% 100%,76%;
+	width:100%;
+	transition:all 1s;
+}
+.close{
+		display:non;
+		background: url("https://36.media.tumblr.com/d2662dd2f4b6379e9d2871bcd39f4bb5/tumblr_nx03vrQxM21ukuh1zo1_540.jpg") top left repeat-y,
+	url("https://36.media.tumblr.com/d2662dd2f4b6379e9d2871bcd39f4bb5/tumblr_nx03vrQxM21ukuh1zo1_540.jpg") top right repeat-y,
+	url("https://40.media.tumblr.com/a36340b89b8857d8fb59eb802cc09853/tumblr_nx03vrQxM21ukuh1zo2_400.jpg") center repeat;
+	background-color:#E1B335;
+	background-size:50% 100%,50% 100%,0%;
+	width:100%;
+	transition:all 1s;
+}
+
+.byebye {
+	display:none;
+	
+}
+
+.pew,.pew2 {
+	border-radius:25px;
+	left:35%;
+	position:relative;
+	width:33%;
+	background-color:#990000;
+	color:#FFFFFF;
+	font-size:15px;
+	font-family: sans-serif;
+	font-style:italic;
+	font-weight:bold;
+	transition: background-color 1.0s;
+}
+.pew:hover,.pew2:hover{
+	transition: background-color 1.0s;
+	background-color: #FFFFFF;
+	color:#990000;
+	
+}
+
+
+figure {
+	float: right;
+	font-style:italic;
+	font-size: 12px;
+}
+
+.container {
+	width: 75%;
+	margin: 40px auto 60px;
+}
+
+#content-contact {
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	border-bottom: 3px solid #000000;
+}
+
+#content-summarycontent {
+	margin: 0 0 16px 0;
+	padding: 0 0 32px 0;
+
+	font-style: italic;
+	font-size: 20px;
+}
+#content-professionalheader {
+	font-size: 28px;
+}
+
+time {
+	float: right;
+	margin-right:15px;
+}
+
+h4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #000000;
+}
+h3 a {
+	text-decoration: none;
+	color:#000000;
+}
+h3 a:hover {
+	color:#0000FF;
+}
+
+
+
+.slideButton { 
+	padding: 10px;
+	cursor:pointer;
+	}
+	
+.slideContent {
+	display: none;
+	padding: 10px;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 480px) {
+body {
+	background:	url("https://40.media.tumblr.com/a36340b89b8857d8fb59eb802cc09853/tumblr_nx03vrQxM21ukuh1zo2_400.jpg") center repeat;
+	background-size:100%;
+	background-color:#E1B335;
+	
+}
+time {
+	font-size:26px;
+}
+}
+		
